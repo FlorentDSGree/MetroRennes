@@ -18,10 +18,11 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 **Tableau 1: Chiffres-clés sur les infrastructures**
 
-|                 |Ligne a|Ligne b|Total|
-|-----------------|------:|------:|----:|
-|Nombre de station|     15|     15|   30|
-
+|                  |Ligne a       |Ligne b             |Total|
+|------------------|-------------:|-------------------:|----:|
+|Nombre de station |            15|                  15|   30|
+|Terminus 1        | J.F. Kennedy |Saint-Jacques-Gaité |N/A  |
+|Terminus 2        | La Poterie   |Cesson Viasilva     |N/A  |
 
 ## 3. Visualisation
 
