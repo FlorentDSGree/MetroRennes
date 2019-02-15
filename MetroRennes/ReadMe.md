@@ -24,3 +24,11 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 
 ## 3. Visualisation
+
+**Carte 1: Interactive population map of Ille-et-Vilaine (Click it for interactivity!)**
+
+<p align="center">
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.PNG" width="400"/>
+  </a>
+</p>
