@@ -18,12 +18,16 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 **Tableau 1: Chiffres-clés sur les infrastructures**
 
-|                                       |Ligne a       |Ligne b             |Total|
-|---------------------------------------|-------------:|-------------------:|----:|
-|Nombre de station                      |            15|                  15|   30|
-|Terminus 1                             | J.F. Kennedy |Saint-Jacques-Gaité |N/A  |
-|Terminus 2                             | La Poterie   |Cesson Viasilva     |N/A  |
-|Distance euclidienne entre les terminus| 6.2km        | 7.6km              |N/A  |
+|                                       |Ligne a                          |Ligne b                            |Total|
+|---------------------------------------|--------------------------------:|----------------------------------:|----:|
+|Nombre de station                      |            15                   |                  15               |   30|
+|Terminus 1                             | J.F. Kennedy                    |Saint-Jacques-Gaité                |N/A  |
+|Terminus 2                             | La Poterie                      |Cesson Viasilva                    |N/A  |
+|Distance euclidienne entre les terminus| 6.2km                           | 7.6km                             |N/A  |
+|Minimum distance euclidienne           | 0.37km (Charles de Gaulle-Gares)| 0.53km (Saint Germain-Sainte Anne)|N/A  |
+|Maximum distance euclidienne           | 0.78km (Gares-Jacques Cartier)  | 1.11km (Cleunay-Mabilais)         |N/A  |
+
+*La distance euclidienne est la distance la plus courte entre deux points ("vol d'oiseau").*
 
 ## 3. Visualisation
 
