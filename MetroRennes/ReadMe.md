@@ -1,0 +1,26 @@
+# Statistiques et visualisation du métro de Rennes
+
+## 1. Information
+
+<p align="justify">
+Ce document propose une analyse statistique et une visualisation du métro de Rennes. 
+Les données proviennent du site Rennes Métropole (https://data.rennesmetropole.fr/page/home/). 
+Ces données sont dans un premier temps acquises grâce a l'API du site et sont ensuite adaptées
+en vue de leur analyse et visualisation. La visualisation est réalisée avec la librairie "bokeh".
+</p>
+
+## 2. Statistiques
+
+<p align="justify">
+La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette ligne transporte environ 140 000 passagers par jour.
+ Une deuxième ligne (ligne b) est actuellement en construction dont l'ouverture est prévue pour 2020.
+</p>
+
+**Tableau 1: Chiffres-clés sur les infrastructures**
+
+|                 |Ligne a|Ligne b|Total|
+|-----------------|------:|------:|----:|
+|Nombre de station|     15|     15|   30|
+
+
+## 3. Visualisation
