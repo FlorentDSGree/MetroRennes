@@ -18,16 +18,16 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 **Tableau 1: Chiffres-clés sur les infrastructures**
 
-|                                                              |Ligne a                          |Ligne b                            |
-|--------------------------------------------------------------|--------------------------------:|----------------------------------:|
-|Nombre de station                                             | 15                              | 15                                |
-|Terminus 1                                                    | J.F. Kennedy                    | Saint-Jacques-Gaité               |
-|Terminus 2                                                    | La Poterie                      | Cesson Viasilva                   |
-|Distance euclidienne entre les terminus                       | 6.2km                           | 7.6km                             |
-|Distance euclidienne moyenne entre 2 stations                 | 583m                            | 800m                              |
-|Distance euclidienne médiane entre 2 stations                 | 552m                            | 776m                              |
-|Distance euclidienne la plus courte entre 2 stations          | 378m<br>Charles de Gaulle - Gares| 535m<br>Saint Germain - Sainte Anne|
-|Distance euclidienne le plus longue entre 2 stations          | 782m<br>Gares - Jacques Cartier) | 1116m <br>Cleunay - Mabilais      |
+|                                               |Ligne a                           |Ligne b                             |
+|-----------------------------------------------|---------------------------------:|-----------------------------------:|
+|Nombre de station                              | 15                               | 15                                 |
+|Terminus 1                                     | J.F. Kennedy                     | Saint-Jacques-Gaité                |
+|Terminus 2                                     | La Poterie                       | Cesson Viasilva                    |
+|Distance euclidienne entre les terminus        | 6.2km                            | 7.6km                              |
+|Distance euclidienne moyenne entre 2 stations  | 583m                             | 800m                               |
+|Distance euclidienne médiane entre 2 stations  | 552m                             | 776m                               |
+|Distance euclidienne minimale entre 2 stations | 378m<br>Charles de Gaulle - Gares| 535m<br>Saint Germain - Sainte Anne|
+|Distance euclidienne maximale entre 2 stations | 782m<br>Gares - Jacques Cartier) | 1116m <br>Cleunay - Mabilais       |
 
 *La distance euclidienne est la distance la plus courte entre deux points ("vol d'oiseau").*
 
