@@ -48,11 +48,16 @@ Les deux lignes de métro comportent le même nombre de station (15), cependant 
 
 **Tableau 2: Chiffres-clés sur le tracé des lignes de métro**
 
-|                                 | Ligne a | Ligne b |
-|---------------------------------|---------|---------|
-|Distance totale avec arrière-gare| 9 696m  | |
-|Distance totale sans arrière-gare| 8 587m  | |
-|Distance totale en station       | 537m    | |
+|                                      | Ligne a | Ligne b |
+|--------------------------------------|---------|---------|
+|Distance totale avec arrière-gare     | 9 696m  | 13 727m |
+|Distance totale sans arrière-gare     | 8 587m  | 12 949m |
+|Distance totale en station            | 537m    | 919m    |
+|Distance totale en tunnel             | 3 680m  | 8 062m  |
+|Distance totale en tranchée couverte  | 3 030m  | 1 782m  |
+|Distance totale en zone de transition | 395m    | 109m    |
+|Distance totale en viaduc             | 945m    | 2 077m  |
+
 
 ## 3. Visualisation
 
