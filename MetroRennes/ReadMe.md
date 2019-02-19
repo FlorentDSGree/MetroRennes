@@ -32,7 +32,11 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 *La distance euclidienne est la distance la plus courte entre deux points ("vol d'oiseau").*
 
 **Figure 1: Distribution de la distance euclidienne entre 2 stations pour les 2 lignes de métro**
-
+<p align="center">
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.png" width="400"/>
+  </a>
+</p>
 
 <p align="justify">
 Les deux lignes de métro comportent le même nombre de station (15). Les distances euclidiennes moyennes, minimales et maximales entre deux stations sont plus importante pour la ligne b que pour le ligne a. La figure 1 confirme le plus grand espacement entre les stations de la ligne b.
