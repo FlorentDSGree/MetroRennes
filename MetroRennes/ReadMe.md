@@ -16,7 +16,9 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
  Une deuxième ligne (ligne b) est actuellement en construction dont l'ouverture est prévue pour 2020.
 </p>
 
-**Tableau 1: Chiffres-clés sur les infrastructures**
+### 2.1. Analyse des stations de métro
+
+**Tableau 1: Chiffres-clés sur les stations de métro**
 
 |                                               |Ligne a                           |Ligne b                             |
 |-----------------------------------------------|---------------------------------:|-----------------------------------:|
@@ -42,6 +44,16 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 Les deux lignes de métro comportent le même nombre de station (15), cependant la ligne b est plus longue que la ligne a de 1.4km (+22.6%). Les distances euclidiennes moyennes, minimales et maximales entre deux stations sont plus importante pour la ligne b que pour le ligne a. La figure 1 confirme le plus grand espacement entre les stations de la ligne b.
 </p>
 
+### 2.2. Analyse du tracé des lignes de métro
+
+**Tableau 2: Chiffres-clés sur le tracé des lignes de métro**
+
+|                                 | Ligne a | Ligne b |
+|---------------------------------|---------|---------|
+|Distance totale avec arrière-gare| 9 696m  | |
+|Distance totale sans arrière-gare| 8 587m  | |
+|Distance totale en station       | 537m    | |
+
 ## 3. Visualisation
 
 **Carte 1: Localisation des stations de métro (Cliquez sur l'image pour l'interactivité!)**
@@ -55,7 +67,7 @@ Les deux lignes de métro comportent le même nombre de station (15), cependant 
 
 ## 4. Autres informations
 
-**Tableau 2: Distances entre stations de la ligne a**
+**Tableau 3: Distances entre stations de la ligne a**
 
 |Station 1           |Station 2            | Distance euclidienne [m]|
 |--------------------|---------------------|------------------------:|
@@ -74,7 +86,7 @@ Les deux lignes de métro comportent le même nombre de station (15), cependant 
 |Triangle            |	Le Blosne           |	474
 |Le Blosne	          | La Poterie          |	721
 
-**Tableau 3: Distances entre stations de la ligne b**
+**Tableau 4: Distances entre stations de la ligne b**
 
 |Station 1           |Station 2            | Distance euclidienne [m]|
 |--------------------|---------------------|------------------------:|
