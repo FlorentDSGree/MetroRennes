@@ -39,7 +39,7 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 </p>
 
 <p align="justify">
-Les deux lignes de métro comportent le même nombre de station (15). Les distances euclidiennes moyennes, minimales et maximales entre deux stations sont plus importante pour la ligne b que pour le ligne a. La figure 1 confirme le plus grand espacement entre les stations de la ligne b.
+Les deux lignes de métro comportent le même nombre de station (15), cependant la ligne b est plus longue que la ligne a de 1.4km (+22.6%). Les distances euclidiennes moyennes, minimales et maximales entre deux stations sont plus importante pour la ligne b que pour le ligne a. La figure 1 confirme le plus grand espacement entre les stations de la ligne b.
 </p>
 
 ## 3. Visualisation
