@@ -9,7 +9,7 @@ Ces données sont dans un premier temps acquises grâce a l'API du site et sont 
 en vue de leur analyse et visualisation. La visualisation est réalisée avec la librairie "bokeh".
 </p>
 
-## 2. Statistiques
+## 2. Statistiques et analyses
 
 <p align="justify">
 La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette ligne transporte environ 140 000 passagers par jour.
@@ -31,6 +31,17 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 *La distance euclidienne est la distance la plus courte entre deux points ("vol d'oiseau").*
 
+**Figure 1: Distribution de la distance euclidienne entre 2 stations pour les 2 lignes de métro**
+
+<p align="center">
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.png" width="400"/>
+  </a>
+</p>
+<p align="justify">
+Les deux lignes de métro comportent le même nombre de station (15). Les distances euclidiennes moyennes, minimales et maximales entre deux stations sont plus importante pour la ligne b que pour le ligne a. La figure 1 confirme le plus grand espacement entre les stations de la ligne b.
+</p>
+
 ## 3. Visualisation
 
 **Carte 1: Localisation des stations de métro (Cliquez sur l'image pour l'interactivité!)**
@@ -38,14 +49,6 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.html">
   <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.PNG" width="400"/>
-  </a>
-</p>
-
-**Figure 1: Distribution de la distance euclidiennes entre 2 stations pour les 2 lignes de métro**
-
-<p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.PNG" width="400"/>
   </a>
 </p>
 
