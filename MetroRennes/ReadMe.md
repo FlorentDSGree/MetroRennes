@@ -33,8 +33,8 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 **Figure 1: Distribution de la distance euclidienne entre 2 stations pour les 2 lignes de métro**
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.png" width="400"/>
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStationsLegend.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStationsLegend.png" width="400"/>
   </a>
 </p>
 
