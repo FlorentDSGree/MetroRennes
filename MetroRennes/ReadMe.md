@@ -40,3 +40,52 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
   <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.PNG" width="400"/>
   </a>
 </p>
+
+**Figure 1: Distribution de la distance euclidiennes entre 2 stations pour les 2 lignes de métro**
+
+<p align="center">
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.PNG" width="400"/>
+  </a>
+</p>
+
+
+## 4. Autres informations
+
+**Tableau 2: Distances entre stations de la ligne a**
+
+|Station 1           |Station 2            | Distance euclidienne [m]|
+|--------------------|---------------------|------------------------:|
+|J.F. Kennedy        |	Villejean-Université|	544
+|Villejean-Université|	Pontchaillou        |	782
+|Pontchaillou       	| Anatole France      |	574
+|Anatole France     	| Sainte-Anne         |	662
+|Sainte-Anne	        | République          |	539
+|République	         | Charles de Gaulle   |	509
+|Charles de Gaulle   |	Gares               |	378
+|Gares	              | Jacques Cartier     |	782
+|Jacques Cartier     |	Clemenceau          |	458
+|Clemenceau	         | Henri Fréville      |	646
+|Henri Fréville      |	Italie              |	528
+|Italie	             | Triangle            |	560
+|Triangle            |	Le Blosne           |	474
+|Le Blosne	          | La Poterie          |	721
+
+**Tableau 3: Distances entre stations de la ligne b**
+
+|Station 1           |Station 2            | Distance euclidienne [m]|
+|--------------------|---------------------|------------------------:|
+|Saint-Jacques-Gaité |	La Courrouze        |	630
+|La Courrouze        |	Cleunay             |	775
+|Cleunay             |	Mabilais            |	1 116
+|Mabilais            |	Colombier           |	784
+|Colombier           |	Gares               |	770
+|Gares               |	Saint Germain       |	776
+|Saint Germain	      | Sainte Anne         |	535
+|Sainte Anne         |	Jules Ferry         |	808
+|Jules Ferry         |	Gros Chêne          |	854
+|Gros Chêne          |	Les Gayeulles       |	715
+|Les Gayeulles       |	Irène Joliot-Curie  |	728
+|Irène Joliot-Curie  |	Beaulieu Université |	945
+|Beaulieu Université |	Atalante            |	994
+|Atalante            |	Cesson Viasilva     |	763
