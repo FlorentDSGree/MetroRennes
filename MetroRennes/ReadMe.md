@@ -48,7 +48,7 @@ Les deux lignes de métro comportent le même nombre de station (15), cependant 
 
 **Tableau 2: Chiffres-clés sur le tracé des lignes de métro**
 
-| Distance          | Ligne a | Ligne b |
+| Longueur          | Ligne a | Ligne b |
 |:------------------|--------:|--------:|
 |Totale             | 9 696m  | 13 727m |
 |Entre terminus     | 8 587m  | 12 949m |
