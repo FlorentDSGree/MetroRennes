@@ -48,15 +48,17 @@ Les deux lignes de métro comportent le même nombre de station (15), cependant 
 
 **Tableau 2: Chiffres-clés sur le tracé des lignes de métro**
 
-| Longueur          | Ligne a | Ligne b |
-|:------------------|--------:|--------:|
-|Totale             | 9 696m  | 13 727m |
-|Entre terminus     | 8 587m  | 12 949m |
-|Tunnel             | 3 680m  | 8 062m  |
-|Tranchée couverte  | 3 030m  | 1 782m  |
-|Viaduc             | 945m    | 2 077m  |
-|Station            | 537m    | 919m    |
-|Zone de transition | 395m    | 109m    |
+| Longueur          | Ligne a | Ligne b |Difference (a-b)|
+|:------------------|--------:|--------:|---------------:|
+|Totale             | 9 696m  | 13 727m | -4 031m (-42%) |
+|Entre terminus     | 8 587m  | 12 949m | -4 362m (-51%) |
+|Tunnel             | 3 680m  | 8 062m  | -4 382m (-119%)|
+|Tranchée couverte  | 3 030m  | 1 782m  | 1 248m (+41%)  |
+|Viaduc             | 945m    | 2 077m  | -1 132m (-120%)|
+|Station            | 537m    | 919m    | -382 m (-71%)  |
+|Zone de transition | 395m    | 109m    | 286m (+72%)    |
+
+La longueur totale comprend les zones qui ne sont pas utilisées pour le transport de voyageurs, elles correspondent aux voies de service. Elles représentent un part une part non négligéable des voies, 11,4% de la ligne a et 5,6% de la ligne b. La ligne b est plus longue que la ligne a d'environ 50%. Les voies en tunnel de la ligne b sont quasiment équivalente à la longueur entre terminus de la ligne a, 8 062m contre 8 587m respectivement. Le nombre de station est similaire pour les deux lignes (15), cependant la longueur des voie en station est plus longue pour la ligne b d'environ 30%.
 
 **Figure 2: Distribution de la longueur des voies de métro par type de voie**
 
