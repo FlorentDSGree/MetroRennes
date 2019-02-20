@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="85b557f6-e6b1-400b-aad0-15faf7311b9f" data-root-id="12996"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="13557">
+          {"90b98af7-6b7b-4c7f-9d90-c812ea66e79c":{"roots":{"references":[{"attributes":{"below":[{"id":"13006","type":"CategoricalAxis"}],"left":[{"id":"13010","type":"LinearAxis"}],"plot_height":450,"plot_width":500,"renderers":[{"id":"13006","type":"CategoricalAxis"},{"id":"13009","type":"Grid"},{"id":"13010","type":"LinearAxis"},{"id":"13014","type":"Grid"},{"id":"13038","type":"Legend"},{"id":"13031","type":"GlyphRenderer"},{"id":"13045","type":"GlyphRenderer"}],"title":{"id":"12995","type":"Title"},"toolbar":{"id":"13020","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"12998","type":"FactorRange"},"x_scale":{"id":"13002","type":"CategoricalScale"},"y_range":{"id":"13000","type":"DataRange1d"},"y_scale":{"id":"13004","type":"LinearScale"}},"id":"12996","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"13016","type":"WheelZoomTool"},{"attributes":{},"id":"13052","type":"Selection"},{"attributes":{},"id":"13053","type":"UnionRenderers"},{"attributes":{"fill_color":{"value":"#3547C9"},"line_color":{"value":"#3547C9"},"top":{"field":"Length"},"width":{"value":0.4},"x":{"field":"Categorie","transform":{"id":"13027","type":"Dodge"}}},"id":"13029","type":"VBar"},{"attributes":{"dimension":1,"plot":{"id":"12996","subtype":"Figure","type":"Plot"},"ticker":{"id":"13011","type":"BasicTicker"}},"id":"13014","type":"Grid"},{"attributes":{"label":{"value":"Ligne a"},"renderers":[{"id":"13045","type":"GlyphRenderer"}]},"id":"13054","type":"LegendItem"},{"attributes":{},"id":"13011","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Length"},"width":{"value":0.4},"x":{"field":"Categorie","transform":{"id":"13027","type":"Dodge"}}},"id":"13030","type":"VBar"},{"attributes":{"callback":null,"tooltips":"\n&lt;div&gt;\n    &lt;div&gt;\n        &lt;span style=\"font-size: 13px; font-weight: bold; color: #2F4F4F;\"&gt;Ligne @Line&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div&gt;\n        &lt;span style=\"font-size: 14px; color: grey;\"&gt;Type de voie: &lt;/span&gt;\n        &lt;span style=\"font-size: 13px; font-weight: bold; color: #2F4F4F;\"&gt;@Categorie&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div&gt;\n        &lt;span style=\"font-size: 14px; color: grey;\"&gt;Longueur: &lt;/span&gt;\n        &lt;span style=\"font-size: 13px; font-weight: bold; color: #2F4F4F;\"&gt;@Length m&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div&gt;\n        &lt;span style=\"font-size: 14px; color: grey;\"&gt;Longueur: &lt;/span&gt;\n        &lt;span style=\"font-size: 13px; font-weight: bold; color: #2F4F4F;\"&gt;@LengthPrc %&lt;/span&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n"},"id":"13018","type":"HoverTool"},{"attributes":{"data_source":{"id":"13026","type":"ColumnDataSource"},"glyph":{"id":"13029","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"13030","type":"VBar"},"selection_glyph":null,"view":{"id":"13032","type":"CDSView"}},"id":"13031","type":"GlyphRenderer"},{"attributes":{},"id":"13015","type":"PanTool"},{"attributes":{"plot":null,"text":"Longueur totale par type de voie","text_color":{"value":"#2F4F4F"},"text_font":"verdana","text_font_size":{"value":"12pt"}},"id":"12995","type":"Title"},{"attributes":{},"id":"13017","type":"ResetTool"},{"attributes":{"source":{"id":"13026","type":"ColumnDataSource"}},"id":"13032","type":"CDSView"},{"attributes":{},"id":"13429","type":"Selection"},{"attributes":{},"id":"13034","type":"CategoricalTickFormatter"},{"attributes":{"range":{"id":"12998","type":"FactorRange"},"value":-0.2},"id":"13027","type":"Dodge"},{"attributes":{},"id":"13036","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"13034","type":"CategoricalTickFormatter"},"major_label_orientation":0.5,"major_label_text_font_size":{"value":"9pt"},"major_label_text_font_style":"bold","plot":{"id":"12996","subtype":"Figure","type":"Plot"},"ticker":{"id":"13007","type":"CategoricalTicker"}},"id":"13006","type":"CategoricalAxis"},{"attributes":{"items":[{"id":"13039","type":"LegendItem"},{"id":"13054","type":"LegendItem"}],"plot":{"id":"12996","subtype":"Figure","type":"Plot"}},"id":"13038","type":"Legend"},{"attributes":{},"id":"13002","type":"CategoricalScale"},{"attributes":{"label":{"value":"Ligne b"},"renderers":[{"id":"13031","type":"GlyphRenderer"}]},"id":"13039","type":"LegendItem"},{"attributes":{},"id":"13004","type":"LinearScale"},{"attributes":{"callback":null,"data":{"Categorie":["Entre terminus","Tunnel","Tranch\u00e9e couverte","Viaduc","Station","Zone de transition"],"Length":[8587,3680,3030,945,537,395],"LengthPrc":[100,43,35,11,6,5],"Line":["a","a","a","a","a","a"]},"selected":{"id":"13429","type":"Selection"},"selection_policy":{"id":"13430","type":"UnionRenderers"}},"id":"13040","type":"ColumnDataSource"},{"attributes":{"axis_label":"Longueur [m]","axis_label_text_font":"verdana","axis_label_text_font_style":"bold","formatter":{"id":"13036","type":"BasicTickFormatter"},"major_label_text_font":"verdana","plot":{"id":"12996","subtype":"Figure","type":"Plot"},"ticker":{"id":"13011","type":"BasicTicker"}},"id":"13010","type":"LinearAxis"},{"attributes":{"range":{"id":"12998","type":"FactorRange"},"value":0.2},"id":"13041","type":"Dodge"},{"attributes":{"callback":null},"id":"13000","type":"DataRange1d"},{"attributes":{"callback":null,"factors":["Entre terminus","Tunnel","Tranch\u00e9e couverte","Viaduc","Station","Zone de transition"]},"id":"12998","type":"FactorRange"},{"attributes":{"callback":null,"data":{"Categorie":["Entre terminus","Tunnel","Tranch\u00e9e couverte","Viaduc","Station","Zone de transition"],"Length":[12949,8062,1782,2077,919,109],"LengthPrc":[100,62,14,16,7,1],"Line":["b","b","b","b","b","b"]},"selected":{"id":"13052","type":"Selection"},"selection_policy":{"id":"13053","type":"UnionRenderers"}},"id":"13026","type":"ColumnDataSource"},{"attributes":{},"id":"13007","type":"CategoricalTicker"},{"attributes":{"fill_color":{"value":"#E89855"},"line_color":{"value":"#E89855"},"top":{"field":"Length"},"width":{"value":0.4},"x":{"field":"Categorie","transform":{"id":"13041","type":"Dodge"}}},"id":"13043","type":"VBar"},{"attributes":{},"id":"13430","type":"UnionRenderers"},{"attributes":{"plot":{"id":"12996","subtype":"Figure","type":"Plot"},"ticker":{"id":"13007","type":"CategoricalTicker"}},"id":"13009","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Length"},"width":{"value":0.4},"x":{"field":"Categorie","transform":{"id":"13041","type":"Dodge"}}},"id":"13044","type":"VBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"13015","type":"PanTool"},{"id":"13016","type":"WheelZoomTool"},{"id":"13017","type":"ResetTool"},{"id":"13018","type":"HoverTool"},{"id":"13019","type":"SaveTool"}]},"id":"13020","type":"Toolbar"},{"attributes":{"data_source":{"id":"13040","type":"ColumnDataSource"},"glyph":{"id":"13043","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"13044","type":"VBar"},"selection_glyph":null,"view":{"id":"13046","type":"CDSView"}},"id":"13045","type":"GlyphRenderer"},{"attributes":{},"id":"13019","type":"SaveTool"},{"attributes":{"source":{"id":"13040","type":"ColumnDataSource"}},"id":"13046","type":"CDSView"}],"root_ids":["12996"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('13557').textContent;
+                  var render_items = [{"docid":"90b98af7-6b7b-4c7f-9d90-c812ea66e79c","roots":{"12996":"85b557f6-e6b1-400b-aad0-15faf7311b9f"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
