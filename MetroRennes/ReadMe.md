@@ -58,7 +58,13 @@ Les deux lignes de métro comportent le même nombre de station (15), cependant 
 |Station            | 537m    | 919m    |
 |Zone de transition | 395m    | 109m    |
 
+**Figure 2: Distribution de la longueur des voies de métro par type de voie**
 
+<p align="center">
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.PNG" width="400"/>
+  </a>
+</p>
 
 ## 3. Visualisation
 
