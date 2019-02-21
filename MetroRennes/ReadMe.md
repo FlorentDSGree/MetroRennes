@@ -31,7 +31,9 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 |Distance euclidienne minimale entre 2 stations | 378m<br>Charles de Gaulle - Gares| 535m<br>Saint Germain - Sainte Anne|
 |Distance euclidienne maximale entre 2 stations | 782m<br>Gares - Jacques Cartier) | 1 116m <br>Cleunay - Mabilais       |
 
+<p align="justify">
 *La distance euclidienne est la distance la plus courte entre deux points ("vol d'oiseau"). La longueur du tracé des voies sera au moins égale à la distance euclidienne. La tracé réel des voies ne suit pas toujours une ligne droite à cause de différentes contraintes.*
+</p>
 
 **Figure 1: Distribution de la distance euclidienne entre 2 stations pour les 2 lignes de métro**
 <p align="center">
