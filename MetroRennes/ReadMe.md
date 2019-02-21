@@ -86,6 +86,10 @@ La longueur totale comprend les zones qui ne sont pas utilisées pour le transpo
 
 ## 4. Autres informations
 
+<p align="center">
+Les tableaux suivants contiennent les details de la distance euclidienne et la longueur du tracé de la voie entre deux stations consécutives pour chaque ligne. La différence de longueur permet d'identifier quelles portions de voie sont au plus proche de la ligne droite. La courbure du trace de la voie depend de plusieurs paramètres incluant des contraintes de terrains, mécaniques, physiques...
+</p>
+
 **Tableau 3: Distances et longueurs du tracé de la voie entre les stations de la ligne a**
 
 |Station 1           |Station 2            | Distance euclidienne [m]| Longueur tracé de la voie [m]| Différence de longueur [m]|
