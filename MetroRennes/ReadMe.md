@@ -20,17 +20,17 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 **Tableau 1: Chiffres-clés sur les stations de métro**
 
-|                                                 |Ligne a                           |Ligne b                             |
-|-------------------------------------------------|---------------------------------:|-----------------------------------:|
-|Nombre de station                                | 15                               | 15                                 |
-|Terminus 1                                       | J.F. Kennedy                     | Saint-Jacques-Gaité                |
-|Terminus 2                                       | La Poterie                       | Cesson Viasilva                    |
-|**Distance orthodromique...** |                                    |
+|                              |Ligne a                           |Ligne b                             |
+|------------------------------|---------------------------------:|-----------------------------------:|
+|Nombre de station             | 15                               | 15                                 |
+|Terminus 1                    | J.F. Kennedy                     | Saint-Jacques-Gaité                |
+|Terminus 2                    | La Poterie                       | Cesson Viasilva                    |
+|**Distance orthodromique...** |    **...**                       |  **...**                           |
 |Entre les terminus            | 6.2km                            | 7.6km                              |
 |Moyenne entre 2 stations      | 583m                             | 800m                               |
 |Médiane entre 2 stations      | 552m                             | 776m                               |
 |Minimale entre 2 stations     | 378m<br>Charles de Gaulle - Gares| 535m<br>Saint Germain - Sainte Anne|
-|Maximale entre 2 stations     | 782m<br>Gares - Jacques Cartier) | 1 116m <br>Cleunay - Mabilais      |
+|Maximale entre 2 stations     | 782m<br>Gares - Jacques Cartier  | 1 116m <br>Cleunay - Mabilais      |
 
 <p align="justify">
  <em>La distance orthodromique est la distance la plus courte entre deux points ("vol d'oiseau"). La longueur du tracé des voies sera au moins égale à la distance orthodromique. La tracé réel des voies ne suit pas toujours une ligne droite à cause de différentes contraintes.
