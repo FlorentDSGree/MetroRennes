@@ -97,17 +97,13 @@ La carte 3 met en avant l'utilisation des types d'ouvrages. En centre-ville, le 
 **Carte 2: Tracé des lignes de métro (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroLine.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroLine.PNG" width="400"/>
-  </a>
+
 </p>
 
 **Carte 3: Tracé des lignes de métro par type d'ouvrage (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroType.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroType.PNG" width="400"/>
-  </a>
+
 </p>
 
 ## 4. Autres informations
