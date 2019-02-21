@@ -75,6 +75,15 @@ La longueur totale comprend les zones qui ne sont pas utilisées pour le transpo
 
 ## 3. Visualisation
 
+<p align="justify">
+Les cartes suivantes montrent la localisation géographique des stations de métro ainsi que le tracé des lignes de métro. 
+Les deux lignes se croisent en deux endroits, aux stations Gares et Saint-Anne. Le tracé des voies de métro met en avant la forme sinueuse des lignes et explique la différence entre la distance euclidienne et la longueur réel entre les stations. Par exemple,
+entre les stations Jacques Cartier et Clemenceau (ligne a) la différence est de 0m (voir tableau 3 partie 4) et le tracé est quasiment tout droit. Inversement entre Gares et Saint Germain (ligne b) la différence est de 320m (voir tableau 4 partie 4) et le tracé comporte une longue courbe.
+La carte 3 met en avant l'utilisation des types d'ouvrages. En centre-ville, le tunnel est omniprésent à cause de la forte urbanisation. En s'écartant du centre, les tranchées couvertes sont plus employées de même que les viaducs qui sont plutôt utilisés en bout de ligne.
+
+</p>
+
+
 **Carte 1: Localisation des stations de métro (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
