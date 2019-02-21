@@ -20,23 +20,23 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 **Tableau 1: Chiffres-clés sur les stations de métro**
 
-|                                               |Ligne a                           |Ligne b                             |
-|-----------------------------------------------|---------------------------------:|-----------------------------------:|
-|Nombre de station                              | 15                               | 15                                 |
-|Terminus 1                                     | J.F. Kennedy                     | Saint-Jacques-Gaité                |
-|Terminus 2                                     | La Poterie                       | Cesson Viasilva                    |
-|Distance euclidienne entre les terminus        | 6.2km                            | 7.6km                              |
-|Distance euclidienne moyenne entre 2 stations  | 583m                             | 800m                               |
-|Distance euclidienne médiane entre 2 stations  | 552m                             | 776m                               |
-|Distance euclidienne minimale entre 2 stations | 378m<br>Charles de Gaulle - Gares| 535m<br>Saint Germain - Sainte Anne|
-|Distance euclidienne maximale entre 2 stations | 782m<br>Gares - Jacques Cartier) | 1 116m <br>Cleunay - Mabilais       |
+|                                                 |Ligne a                           |Ligne b                             |
+|-------------------------------------------------|---------------------------------:|-----------------------------------:|
+|Nombre de station                                | 15                               | 15                                 |
+|Terminus 1                                       | J.F. Kennedy                     | Saint-Jacques-Gaité                |
+|Terminus 2                                       | La Poterie                       | Cesson Viasilva                    |
+|Distance orthodromique entre les terminus        | 6.2km                            | 7.6km                              |
+|Distance orthodromique moyenne entre 2 stations  | 583m                             | 800m                               |
+|Distance orthodromique médiane entre 2 stations  | 552m                             | 776m                               |
+|Distance orthodromique minimale entre 2 stations | 378m<br>Charles de Gaulle - Gares| 535m<br>Saint Germain - Sainte Anne|
+|Distance orthodromique maximale entre 2 stations | 782m<br>Gares - Jacques Cartier) | 1 116m <br>Cleunay - Mabilais       |
 
 <p align="justify">
- <em>La distance euclidienne est la distance la plus courte entre deux points ("vol d'oiseau"). La longueur du tracé des voies sera au moins égale à la distance euclidienne. La tracé réel des voies ne suit pas toujours une ligne droite à cause de différentes contraintes.
+ <em>La distance orthodromique est la distance la plus courte entre deux points ("vol d'oiseau"). La longueur du tracé des voies sera au moins égale à la distance orthodromique. La tracé réel des voies ne suit pas toujours une ligne droite à cause de différentes contraintes.
  </em>
 </p>
 
-**Figure 1: Distribution de la distance euclidienne entre 2 stations pour les 2 lignes de métro**
+**Figure 1: Distribution de la distance orthodromique entre 2 stations pour les 2 lignes de métro**
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.html">
   <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.png" width="400"/>
@@ -44,7 +44,7 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 </p>
 
 <p align="justify">
-Les deux lignes de métro comportent le même nombre de station (15), cependant la ligne b est plus longue que la ligne a de 1.4km (+22.6%). Les distances euclidiennes moyennes, minimales et maximales entre deux stations sont plus importante pour la ligne b que pour le ligne a. La figure 1 confirme le plus grand espacement entre les stations de la ligne b.
+Les deux lignes de métro comportent le même nombre de station (15), cependant la ligne b est plus longue que la ligne a de 1.4km (+22.6%). Les distances orthodromiques moyennes, minimales et maximales entre deux stations sont plus importante pour la ligne b que pour le ligne a. La figure 1 confirme le plus grand espacement entre les stations de la ligne b.
 </p>
 
 ### 2.2. Analyse du tracé des lignes de métro
@@ -77,7 +77,7 @@ La longueur totale comprend les zones qui ne sont pas utilisées pour le transpo
 
 <p align="justify">
 Les cartes suivantes montrent la localisation géographique des stations de métro ainsi que le tracé des lignes de métro. 
-Les deux lignes se croisent en deux endroits, aux stations Gares et Saint-Anne. Le tracé des voies de métro met en avant la forme sinueuse des lignes et explique la différence entre la distance euclidienne et la longueur réel entre les stations. Par exemple,
+Les deux lignes se croisent en deux endroits, aux stations Gares et Saint-Anne. Le tracé des voies de métro met en avant la forme sinueuse des lignes et explique la différence entre la distance orthodromique et la longueur réel entre les stations. Par exemple,
 entre les stations Jacques Cartier et Clemenceau (ligne a) la différence est de 0m (voir tableau 3 partie 4) et le tracé est quasiment tout droit. Inversement entre Gares et Saint Germain (ligne b) la différence est de 320m (voir tableau 4 partie 4) et le tracé comporte une longue courbe.
 </p>
 <p align="justify">
@@ -112,43 +112,43 @@ La carte 3 met en avant l'utilisation des types d'ouvrages. En centre-ville, le 
 ## 4. Autres informations
 
 <p align="justify">
-Les tableaux suivants contiennent les details de la distance euclidienne et la longueur du tracé de la voie entre deux stations consécutives pour chaque ligne. La différence de longueur permet d'identifier quelles portions de voie sont au plus proche de la ligne droite. La courbure du trace de la voie depend de plusieurs paramètres incluant des contraintes de terrains, mécaniques, physiques...
+Les tableaux suivants contiennent les details de la distance orthodromique et la longueur du tracé de la voie entre deux stations consécutives pour chaque ligne. La différence de longueur permet d'identifier quelles portions de voie sont au plus proche de la ligne droite. La courbure du trace de la voie depend de plusieurs paramètres incluant des contraintes de terrains, mécaniques, physiques...
 </p>
 
 **Tableau 3: Distances et longueurs du tracé de la voie entre les stations de la ligne a**
 
-|Station 1           |Station 2            | Distance euclidienne [m]| Longueur tracé de la voie [m]| Différence de longueur [m]|
-|--------------------|---------------------|------------------------:|-----------------------------:|--------------------------:|
-|J.F. Kennedy        |	Villejean-Université|	544                     | 545                          | -1                        |
-|Villejean-Université|	Pontchaillou        |	782                     | 799                          | -17                       |
-|Pontchaillou       	| Anatole France      |	574                     | 628                          | -54                       |
-|Anatole France     	| Sainte-Anne         |	662                     | 679                          | -17                       |
-|Sainte-Anne	        | République          |	539                     | 558                          | -19                       |
-|République	         | Charles de Gaulle   |	509                     | 577                          | -68                       |
-|Charles de Gaulle   |	Gares               |	378                     | 395                          | -17                       |
-|Gares	              | Jacques Cartier     |	782                     | 900                          | -118                      |
-|Jacques Cartier     |	Clemenceau          |	458                     | 458                          | 0                         |
-|Clemenceau	         | Henri Fréville      |	646                     | 647                          | -1                        |
-|Henri Fréville      |	Italie              |	528                     | 596                          | -68                       |
-|Italie	             | Triangle            |	560                     | 563                          | -3                        |
-|Triangle            |	Le Blosne           |	474                     | 486                          | -12                       |
-|Le Blosne	          | La Poterie          |	721                     | 722                          | -1                        |
+|Station 1           |Station 2            | Distance orthodromique [m]| Longueur tracé de la voie [m]| Différence de longueur [m]|
+|--------------------|---------------------|--------------------------:|-----------------------------:|--------------------------:|
+|J.F. Kennedy        |	Villejean-Université|	544                       | 545                          | -1                        |
+|Villejean-Université|	Pontchaillou        |	782                       | 799                          | -17                       |
+|Pontchaillou       	| Anatole France      |	574                       | 628                          | -54                       |
+|Anatole France     	| Sainte-Anne         |	662                       | 679                          | -17                       |
+|Sainte-Anne	        | République          |	539                       | 558                          | -19                       |
+|République	         | Charles de Gaulle   |	509                       | 577                          | -68                       |
+|Charles de Gaulle   |	Gares               |	378                       | 395                          | -17                       |
+|Gares	              | Jacques Cartier     |	782                       | 900                          | -118                      |
+|Jacques Cartier     |	Clemenceau          |	458                       | 458                          | 0                         |
+|Clemenceau	         | Henri Fréville      |	646                       | 647                          | -1                        |
+|Henri Fréville      |	Italie              |	528                       | 596                          | -68                       |
+|Italie	             | Triangle            |	560                       | 563                          | -3                        |
+|Triangle            |	Le Blosne           |	474                       | 486                          | -12                       |
+|Le Blosne	          | La Poterie          |	721                       | 722                          | -1                        |
 
 **Tableau 4: Distances et longueurs du tracé de la voie entre les stations de la ligne b**
 
-|Station 1           |Station 2            | Distance euclidienne [m]| Longueur tracé de la voie [m]| Différence de longueur [m]|
-|--------------------|---------------------|------------------------:|-----------------------------:|--------------------------:|
-|Saint-Jacques-Gaité |	La Courrouze        |	630                     | 741                          | -110                      |
-|La Courrouze        |	Cleunay             |	775                     | 840                          | -64                       |
-|Cleunay             |	Mabilais            |	1 116                   | 1 371                        | -254                      |
-|Mabilais            |	Colombier           |	784                     | 802                          | -17                       |
-|Colombier           |	Gares               |	770                     | 828                          | -58                       |
-|Gares               |	Saint Germain       |	776                     | 1 097                        | -320                      |
-|Saint Germain	      | Sainte Anne         |	535                     | 556                          | -21                       |
-|Sainte Anne         |	Jules Ferry         |	808                     | 1 021                        | -213                      |
-|Jules Ferry         |	Gros Chêne          |	854                     | 937                          | -82                       |
-|Gros Chêne          |	Les Gayeulles       |	715                     | 790                          | -75                       |
-|Les Gayeulles       |	Irène Joliot-Curie  |	728                     | 877                          | -149                      |
-|Irène Joliot-Curie  |	Beaulieu Université |	945                     | 1 070                        | -125                      |
-|Beaulieu Université |	Atalante            |	994                     | 1 010                        | -15                       |
-|Atalante            |	Cesson Viasilva     |	763                     | 946                          | -183                      |
+|Station 1           |Station 2            | Distance orthodromique [m]| Longueur tracé de la voie [m]| Différence de longueur [m]|
+|--------------------|---------------------|--------------------------:|-----------------------------:|--------------------------:|
+|Saint-Jacques-Gaité |	La Courrouze        |	630                       | 741                          | -110                      |
+|La Courrouze        |	Cleunay             |	775                       | 840                          | -64                       |
+|Cleunay             |	Mabilais            |	1 116                     | 1 371                        | -254                      |
+|Mabilais            |	Colombier           |	784                       | 802                          | -17                       |
+|Colombier           |	Gares               |	770                       | 828                          | -58                       |
+|Gares               |	Saint Germain       |	776                       | 1 097                        | -320                      |
+|Saint Germain	      | Sainte Anne         |	535                       | 556                          | -21                       |
+|Sainte Anne         |	Jules Ferry         |	808                       | 1 021                        | -213                      |
+|Jules Ferry         |	Gros Chêne          |	854                       | 937                          | -82                       |
+|Gros Chêne          |	Les Gayeulles       |	715                       | 790                          | -75                       |
+|Les Gayeulles       |	Irène Joliot-Curie  |	728                       | 877                          | -149                      |
+|Irène Joliot-Curie  |	Beaulieu Université |	945                       | 1 070                        | -125                      |
+|Beaulieu Université |	Atalante            |	994                       | 1 010                        | -15                       |
+|Atalante            |	Cesson Viasilva     |	763                       | 946                          | -183                      |
