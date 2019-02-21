@@ -83,40 +83,40 @@ La longueur totale comprend les zones qui ne sont pas utilisées pour le transpo
 
 ## 4. Autres informations
 
-**Tableau 3: Distances entre stations de la ligne a**
+**Tableau 3: Distances et longueur du tracé de la voie entre les stations de la ligne a**
 
-|Station 1           |Station 2            | Distance euclidienne [m]|
-|--------------------|---------------------|------------------------:|
-|J.F. Kennedy        |	Villejean-Université|	544
-|Villejean-Université|	Pontchaillou        |	782
-|Pontchaillou       	| Anatole France      |	574
-|Anatole France     	| Sainte-Anne         |	662
-|Sainte-Anne	        | République          |	539
-|République	         | Charles de Gaulle   |	509
-|Charles de Gaulle   |	Gares               |	378
-|Gares	              | Jacques Cartier     |	782
-|Jacques Cartier     |	Clemenceau          |	458
-|Clemenceau	         | Henri Fréville      |	646
-|Henri Fréville      |	Italie              |	528
-|Italie	             | Triangle            |	560
-|Triangle            |	Le Blosne           |	474
-|Le Blosne	          | La Poterie          |	721
+|Station 1           |Station 2            | Distance euclidienne [m]| Longueur tracé de la voie [m]| Différence de longueur [m]|
+|--------------------|---------------------|------------------------:|-----------------------------:|--------------------------:|
+|J.F. Kennedy        |	Villejean-Université|	544                     | 545                          | -1                        |
+|Villejean-Université|	Pontchaillou        |	782                     | 799                          | -17                       |
+|Pontchaillou       	| Anatole France      |	574                     | 628                          | -54                       |
+|Anatole France     	| Sainte-Anne         |	662                     | 679                          | -17                       |
+|Sainte-Anne	        | République          |	539                     | 558                          | -19                       |
+|République	         | Charles de Gaulle   |	509                     | 577                          | -68                       |
+|Charles de Gaulle   |	Gares               |	378                     | 395                          | -17                       |
+|Gares	              | Jacques Cartier     |	782                     | 900                          | -118                      |
+|Jacques Cartier     |	Clemenceau          |	458                     | 458                          | 0                         |
+|Clemenceau	         | Henri Fréville      |	646                     | 647                          | -1                        |
+|Henri Fréville      |	Italie              |	528                     | 596                          | -68                       |
+|Italie	             | Triangle            |	560                     | 563                          | -3                        |
+|Triangle            |	Le Blosne           |	474                     | 486                          | -12                       |
+|Le Blosne	          | La Poterie          |	721                     | 722                          | -1                        |
 
-**Tableau 4: Distances entre stations de la ligne b**
+**Tableau 4: Distances et longueur du tracé de la voie entre les stations de la ligne b**
 
-|Station 1           |Station 2            | Distance euclidienne [m]|
-|--------------------|---------------------|------------------------:|
-|Saint-Jacques-Gaité |	La Courrouze        |	630
-|La Courrouze        |	Cleunay             |	775
-|Cleunay             |	Mabilais            |	1 116
-|Mabilais            |	Colombier           |	784
-|Colombier           |	Gares               |	770
-|Gares               |	Saint Germain       |	776
-|Saint Germain	      | Sainte Anne         |	535
-|Sainte Anne         |	Jules Ferry         |	808
-|Jules Ferry         |	Gros Chêne          |	854
-|Gros Chêne          |	Les Gayeulles       |	715
-|Les Gayeulles       |	Irène Joliot-Curie  |	728
-|Irène Joliot-Curie  |	Beaulieu Université |	945
-|Beaulieu Université |	Atalante            |	994
-|Atalante            |	Cesson Viasilva     |	763
+|Station 1           |Station 2            | Distance euclidienne [m]| Longueur tracé de la voie [m]| Différence de longueur [m]|
+|--------------------|---------------------|------------------------:|-----------------------------:|--------------------------:|
+|Saint-Jacques-Gaité |	La Courrouze        |	630                     | 741                          | -110                      |
+|La Courrouze        |	Cleunay             |	775                     | 840                          | -64                       |
+|Cleunay             |	Mabilais            |	1 116                   | 1 371                        | -254                      |
+|Mabilais            |	Colombier           |	784                     | 802                          | -17                       |
+|Colombier           |	Gares               |	770                     | 828                          | -58                       |
+|Gares               |	Saint Germain       |	776                     | 1 097                        | -320                      |
+|Saint Germain	      | Sainte Anne         |	535                     | 556                          | -21                       |
+|Sainte Anne         |	Jules Ferry         |	808                     | 1 021                        | -213                      |
+|Jules Ferry         |	Gros Chêne          |	854                     | 937                          | -82                       |
+|Gros Chêne          |	Les Gayeulles       |	715                     | 790                          | -75                       |
+|Les Gayeulles       |	Irène Joliot-Curie  |	728                     | 877                          | -149                      |
+|Irène Joliot-Curie  |	Beaulieu Université |	945                     | 1 070                        | -125                      |
+|Beaulieu Université |	Atalante            |	994                     | 1 010                        | -15                       |
+|Atalante            |	Cesson Viasilva     |	763                     | 946                          | -183                      |
