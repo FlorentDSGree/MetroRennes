@@ -39,8 +39,8 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 **Figure 1: Distribution de la distance orthodromique entre 2 stations pour les 2 lignes de métro**
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceEuclidienneEntreStations.png" width="400"/>
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.png" width="400"/>
   </a>
 </p>
 
@@ -89,16 +89,16 @@ La carte 3 met en avant l'utilisation des types d'ouvrages. En centre-ville, le 
 **Carte 1: Localisation des stations de métro (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.PNG" width="400"/>
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.PNG" width="400"/>
   </a>
 </p>
 
 **Carte 2: Tracé des lignes de métro (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroType.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroLine.PNG" width="400"/>
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.PNG" width="400"/>
   </a>
 </p>
 
