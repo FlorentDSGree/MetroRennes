@@ -3,7 +3,14 @@
 ## 1. Information
 
 <p align="justify">
-Ce document propose une analyse statistique et une visualisation du métro de Rennes. Les données proviennent du site Rennes Métropole (https://data.rennesmetropole.fr/page/home/). Ces données sont dans un premier temps acquises grâce a l'API du site et sont ensuite adaptées en vue de leur analyse et visualisation. La visualisation est réalisée avec la librairie "bokeh" utilisée avec Python. Toutes les figures et cartes sont intervactives suite à un clique sur l'image.
+Ce document propose une analyse statistique et une visualisation du métro de Rennes. Les données proviennent du site Rennes Métropole (https://data.rennesmetropole.fr/page/home/). Ces données sont dans un premier temps acquises grâce a l'API du site et sont ensuite adaptées en vue de leur analyse et visualisation. La visualisation est réalisée avec la librairie "bokeh" utilisée avec Python. Toutes les figures et cartes sont intervactives suite à un clique sur l'image, exemple ci-dessous avec la carte les lignes de métro avec les stations.
+</p>
+
+**Carte 1: Lignes de métro avec leurs stations (Cliquez sur l'image pour l'interactivité!)**
+<p align="center">
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceStationMetro.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceStationMetro.PNG" width="400"/>
+  </a>
 </p>
 
 ## 2. Statistiques et analyses
@@ -77,7 +84,7 @@ La longueur totale comprend les zones qui ne sont pas utilisées pour le transpo
 Les cartes suivantes montrent la localisation géographique des stations de métro ainsi que le tracé des lignes de métro. 
 </p>
 
-**Carte 1: Localisation des stations de métro (Cliquez sur l'image pour l'interactivité!)**
+**Carte 2: Localisation des stations de métro (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.html">
@@ -89,7 +96,7 @@ Les cartes suivantes montrent la localisation géographique des stations de mét
 Les deux lignes se croisent en deux endroits, aux stations Gares et Saint-Anne. La ligne a parcourt la ville du Nord-Est au Sud-Est alors que la ligne b la traverse du Sud-Ouest au Nord-Est. 
 </p>
 
-**Carte 2: Tracé des lignes de métro (Cliquez sur l'image pour l'interactivité!)**
+**Carte 3: Tracé des lignes de métro (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroLine.html">
@@ -101,7 +108,7 @@ Les deux lignes se croisent en deux endroits, aux stations Gares et Saint-Anne. 
 Le tracé des voies de métro met en avant la forme sinueuse des lignes et explique la différence entre la distance orthodromique et la longueur réel entre les stations. Par exemple, entre les stations Jacques Cartier et Clemenceau (ligne a) la différence est de 0m (voir tableau 3 partie 4) et le tracé est quasiment tout droit. Inversement entre Gares et Saint Germain (ligne b) la différence est de 320m (voir tableau 4 partie 4) et le tracé comporte une longue courbe.
 </p> 
 
-**Carte 3: Tracé des lignes de métro par type d'ouvrage (Cliquez sur l'image pour l'interactivité!)**
+**Carte 4: Tracé des lignes de métro par type d'ouvrage (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroType.html">
