@@ -78,13 +78,7 @@ La longueur totale comprend les zones qui ne sont pas utilisées pour le transpo
 
 <p align="justify">
 Les cartes suivantes montrent la localisation géographique des stations de métro ainsi que le tracé des lignes de métro. 
-Les deux lignes se croisent en deux endroits, aux stations Gares et Saint-Anne. Le tracé des voies de métro met en avant la forme sinueuse des lignes et explique la différence entre la distance orthodromique et la longueur réel entre les stations. Par exemple,
-entre les stations Jacques Cartier et Clemenceau (ligne a) la différence est de 0m (voir tableau 3 partie 4) et le tracé est quasiment tout droit. Inversement entre Gares et Saint Germain (ligne b) la différence est de 320m (voir tableau 4 partie 4) et le tracé comporte une longue courbe.
 </p>
-<p align="justify">
-La carte 3 met en avant l'utilisation des types d'ouvrages. En centre-ville, le tunnel est omniprésent à cause de la forte urbanisation. En s'écartant du centre, les tranchées couvertes sont plus employées de même que les viaducs qui sont plutôt utilisés en bout de ligne.
-</p>
-
 
 **Carte 1: Localisation des stations de métro (Cliquez sur l'image pour l'interactivité!)**
 
@@ -92,6 +86,10 @@ La carte 3 met en avant l'utilisation des types d'ouvrages. En centre-ville, le 
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.html">
   <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.PNG" width="400"/>
   </a>
+</p>
+
+<p align="justify">
+Les deux lignes se croisent en deux endroits, aux stations Gares et Saint-Anne. La ligne a parcourt la ville du Nord-Est au Sud-Est alors que la ligne b la traverse du Sud-Ouest au Nord-Est. 
 </p>
 
 **Carte 2: Tracé des lignes de métro (Cliquez sur l'image pour l'interactivité!)**
@@ -102,12 +100,20 @@ La carte 3 met en avant l'utilisation des types d'ouvrages. En centre-ville, le 
   </a>
 </p>
 
+<p align="justify">
+Le tracé des voies de métro met en avant la forme sinueuse des lignes et explique la différence entre la distance orthodromique et la longueur réel entre les stations. Par exemple, entre les stations Jacques Cartier et Clemenceau (ligne a) la différence est de 0m (voir tableau 3 partie 4) et le tracé est quasiment tout droit. Inversement entre Gares et Saint Germain (ligne b) la différence est de 320m (voir tableau 4 partie 4) et le tracé comporte une longue courbe.
+</p> 
+
 **Carte 3: Tracé des lignes de métro par type d'ouvrage (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroType.html">
   <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroType.PNG" width="400"/>
   </a>
+</p>
+
+<p align="justify">
+Cette carte met en avant l'utilisation des types d'ouvrages. En centre-ville, le tunnel est omniprésent à cause de la forte urbanisation. En s'écartant du centre, les tranchées couvertes sont plus employées de même que les viaducs qui sont plutôt utilisés en bout de ligne.
 </p>
 
 ## 4. Autres informations
