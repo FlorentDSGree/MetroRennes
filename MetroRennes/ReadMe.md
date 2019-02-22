@@ -3,10 +3,7 @@
 ## 1. Information
 
 <p align="justify">
-Ce document propose une analyse statistique et une visualisation du métro de Rennes. 
-Les données proviennent du site Rennes Métropole (https://data.rennesmetropole.fr/page/home/). 
-Ces données sont dans un premier temps acquises grâce a l'API du site et sont ensuite adaptées
-en vue de leur analyse et visualisation. La visualisation est réalisée avec la librairie "bokeh".
+Ce document propose une analyse statistique et une visualisation du métro de Rennes. Les données proviennent du site Rennes Métropole (https://data.rennesmetropole.fr/page/home/). Ces données sont dans un premier temps acquises grâce a l'API du site et sont ensuite adaptées en vue de leur analyse et visualisation. La visualisation est réalisée avec la librairie "bokeh" utilisée avec Python. Toutes les figures et cartes sont intervactives suite à un clique sur l'image.
 </p>
 
 ## 2. Statistiques et analyses
