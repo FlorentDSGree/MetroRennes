@@ -13,7 +13,7 @@ en vue de leur analyse et visualisation. La visualisation est réalisée avec la
 
 <p align="justify">
 La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette ligne transporte environ 140 000 passagers par jour.
- Une deuxième ligne (ligne b) est actuellement en construction dont l'ouverture est prévue pour 2020.
+ Une deuxième ligne (ligne b) est actuellement en construction dont la mise en service est prévue pour 2020.
 </p>
 
 ### 2.1. Analyse des stations de métro
@@ -33,11 +33,11 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 |Maximale entre 2 stations     | 782m<br>Gares - Jacques Cartier  | 1 116m <br>Cleunay - Mabilais      |
 
 <p align="justify">
- <em>La distance orthodromique est la distance la plus courte entre deux points ("vol d'oiseau"). La longueur du tracé des voies sera au moins égale à la distance orthodromique. La tracé réel des voies ne suit pas toujours une ligne droite à cause de différentes contraintes.
+ <em>La distance orthodromique est la distance la plus courte entre deux points (distance à vol d'oiseau). La longueur du tracé des voies sera au moins égale à la distance orthodromique. Le tracé réel des voies ne suit pas toujours une ligne droite à cause de différentes contraintes.
  </em>
 </p>
 
-**Figure 1: Distribution de la distance orthodromique entre 2 stations pour les 2 lignes de métro**
+**Figure 1: Distribution de la distance orthodromique entre 2 stations pour les 2 lignes de métro (Cliquez sur l'image pour l'interactivité!)**
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceOrthodromiqueEntreStations.html">
   <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceOrthodromiqueEntreStations.PNG" width="400"/>
@@ -45,7 +45,7 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 </p>
 
 <p align="justify">
-Les deux lignes de métro comportent le même nombre de station (15), cependant la ligne b est plus longue que la ligne a de 1.4km (+22.6%). Les distances orthodromiques moyennes, minimales et maximales entre deux stations sont plus importante pour la ligne b que pour le ligne a. La figure 1 confirme le plus grand espacement entre les stations de la ligne b.
+Les deux lignes de métro comportent le même nombre de station (15), cependant la ligne b est plus longue que la ligne a de 1.4km (+22.6%). Les distances orthodromiques moyennes, minimales et maximales entre deux stations sont plus importante pour la ligne b que pour la ligne a. La figure 1 confirme le plus grand espacement entre les stations de la ligne b.
 </p>
 
 ### 2.2. Analyse du tracé des lignes de métro
@@ -66,7 +66,7 @@ Les deux lignes de métro comportent le même nombre de station (15), cependant 
 La longueur totale comprend les zones qui ne sont pas utilisées pour le transport de voyageurs, elles correspondent aux voies de service. Elles représentent un part une part non négligéable des voies, 11,4% de la ligne a et 5,6% de la ligne b. La ligne b est plus longue que la ligne a d'environ 50%. Les voies en tunnel de la ligne b sont quasiment équivalente à la longueur entre terminus de la ligne a, 8 062m contre 8 587m respectivement. Le nombre de station est similaire pour les deux lignes (15), cependant la longueur des voie en station est plus longue pour la ligne b d'environ 30%.
 </p>
 
-**Figure 2: Distribution de la longueur des voies de métro par type de voie**
+**Figure 2: Distribution de la longueur des voies de métro par type de voie (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.html">
@@ -113,7 +113,7 @@ Le tracé des voies de métro met en avant la forme sinueuse des lignes et expli
 </p>
 
 <p align="justify">
-Cette carte met en avant l'utilisation des types d'ouvrages. En centre-ville, le tunnel est omniprésent à cause de la forte urbanisation. En s'écartant du centre, les tranchées couvertes sont plus employées de même que les viaducs qui sont plutôt utilisés en bout de ligne.
+Cette carte met en avant l'utilisation des types d'ouvrages. En centre-ville, les tunnels sont omniprésents à cause de la forte urbanisation. En s'écartant du centre, les tranchées couvertes sont plus employées de même que les viaducs qui sont plutôt utilisés en bout de ligne.
 </p>
 
 ## 4. Autres informations
