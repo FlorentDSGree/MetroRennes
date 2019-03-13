@@ -5,7 +5,7 @@
 <p align="justify">
 Ce document propose une analyse statistique et une visualisation du métro de Rennes. Les données proviennent du site Rennes Métropole (https://data.rennesmetropole.fr/page/home/). Ces données sont dans un premier temps acquises grâce a l'API du site et sont ensuite adaptées en vue de leur analyse et visualisation. La visualisation est réalisée avec la librairie "bokeh" utilisée avec Python. Toutes les figures et cartes sont intervactives suite à un clique sur l'image, exemple ci-dessous avec la carte les lignes de métro avec les stations.
 </p>
-
+[I'm an inline-style link](https://www.google.com)
 **Carte 1: Lignes de métro avec leurs stations (Cliquez sur l'image pour l'interactivité!)**
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceStationMetro.html">
