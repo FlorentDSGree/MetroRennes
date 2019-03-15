@@ -7,7 +7,7 @@ Ce document propose une analyse statistique et une visualisation du métro de Re
 </p>
 
 <html>
-  https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceStationMetro.html
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceStationMetro.html" />
 
 </html>
 
