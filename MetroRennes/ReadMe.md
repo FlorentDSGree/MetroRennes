@@ -7,9 +7,6 @@ Ce document propose une analyse statistique et une visualisation du métro de Re
 </p>
 
 
- ![Map](https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceStationMetro.html?sanitize=true)
-<img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceStationMetro.html?sanitize=true">
-
 **Carte 1: Lignes de métro avec leurs stations (Cliquez sur l'image pour l'interactivité!)**
 <p align="center">
   <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceStationMetro.html">
