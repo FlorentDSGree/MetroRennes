@@ -164,3 +164,15 @@ Les tableaux suivants contiennent les details de la distance orthodromique et la
 |Irène Joliot-Curie  |	Beaulieu Université |	945                       | 1 070                        | -125                      |
 |Beaulieu Université |	Atalante            |	994                       | 1 010                        | -15                       |
 |Atalante            |	Cesson Viasilva     |	763                       | 946                          | -183                      |
+
+
+**Figure 3: Comparaison entre la distance orthodormique et la longueur du tracé des rails (Cliquez sur l'image pour l'interactivité!)**
+<p align="center">
+  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/OrthoDistVSRailwayLength.html">
+  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/OrthoDistVSRailwayLength.PNG" width="400"/>
+  </a>
+</p>
+
+<p align="justify">
+Aucun point ne doit se situer au dessus de la ligne verte. Autrement, cela signifierai que la longueur des rails est plus faible que la distance orthodromique.
+</p>
