@@ -174,5 +174,5 @@ Les tableaux suivants contiennent les details de la distance orthodromique et la
 </p>
 
 <p align="justify">
-Aucun point ne doit se situer au dessus de la ligne verte. Autrement, cela signifierai que la longueur des rails est plus faible que la distance orthodromique.
+Plus un point est proche de la ligne verte et plus la longueur des rails est proche de la distance orthodromique. Aucun point ne doit se situer au dessus de la ligne verte. Autrement, cela signifie que la longueur des rails est plus faible que la distance orthodromique. Cette figure montre que les longueurs des rails entre deux stations consécutives de la ligne a sont plus proche de la ligne droite que celles sur la ligne b.
 </p>
