@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header1 {
+  padding: 20px; text-align: center; background: #1299E1; color: white; font-size: 34px;
+}
+.header2 {
+  padding: 15px; text-align: center; background: #1299E1; color: white; font-size: 28px;
+}
+.header3 {
+  padding: 10px; background: #F6F6F6; color: #1299E1; font-size: 26px;
+}
+.horizlineblue {
+  padding: 1.5px; background: #1299E1;
+}
+/* Page Content */
+.content {padding:15px;margin: 0.5; text-align: justify; line-height: 1.5}
+/* Graph */
+.graph {padding:0px;margin: 0.5; background: light blue; text-align: center}
+</style>
+
+<div class="header1">
+<b>Maddison World Economy 2018</b>
+</div>
+
+<div class="content"> The graphs and plots on this page propose a way to visualise the data collected by Maddison World Economy project. 
+The data used are from the 2018 update. The purpose of this project is to collect information about economy over the years for the maximum 
+number of countries. All the graphs and maps, created with Plotly and Python, are interactive. Some maps contain animation 
+that are playing automatically. Either leave the animation playing, pause and play it using the "Pause" and "Play" buttons or choose the 
+year using the slider.<br>Sources: <a href="https://www.stat.berkeley.edu/~aldous/157/Papers/world_economy.pdf">The World Economy</a>, 
+<a href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2018">Data source</a>
+</div>
+
+<div class="header2"><b>Visualisation and Analysis</b></div>
+
+<div class="header3"><b>1. Study of Countries and Years</b></div>
+<div class="horizlineblue"></div>
+<div class="graph">
+<object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/CountriesConsidered.html" width="1200" height="650" >
+</object>
+</div>
+
+<div class="content"> The 169 countries highlighted in blue are considered in the 2018 Maddison World Economy Report. 193 countries are member 
+states of the United Nations in 2019. Some countries had different territory size or different name over the history (i.e. Former Yugoslavia and 
+USSR are used in the report).
+</div>
+
+<table style="width:100%">
+  <tr>
+    <td>
+    <div class="graph"><object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/CountriesCountPerYearScatter.html" width="500"  height="400" >
+</object></div></td>
+    <td><div class="graph"><object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/CountriesCountPerYearMap.html" width="800" height="450" >
+</object></div></td> 
+  </tr>
+</table>
+
+<div class="content">The data availability range from the year 1 AD to 2016 AD. The frequency of years increases over the time, 
+the first 5 years available are 1, 730, 1000, 1150 and 1280. 1280 years of history are only covered by 5 years of data. 
+From 1280, data are available every years however, the number of countries remains low until the 19th century with less 
+than 10 countries. From 1950, 169 countries are present in the report. Countries are differently represented over the years, the top 3 most 
+represented countries are Sweden (719 occurrences), France (709 occurrences) and Poland (579 occurrences). The figure below highlights the 
+countries availability over the years.
+</div>
+
+<div class="graph">
+<object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/CountriesCountPerYearMapSlider.html" width="1200" height="650" >
+</object>
+</div>
+
+
+<div class="header3"><b>2. Study of GDP</b></div>
+<div class="horizlineblue"></div>
+<table style="width:100%">
+  <tr>
+    <td>
+    <div class="graph"><object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/GlobalGDPPerCapitaPerYear.html" width="600"  height="400" >
+</object></div></td>
+    <td><div class="graph"><object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/GDPPerCapitaAveragedPerCountryPerYear.html" width="600" height="400" >
+</object></div></td> 
+  </tr>
+</table>
+
+<div class="content">Legend<br><li>cgdppc: Real GDP per capita in 2011US$, multiple benchmarks (suitable for cross-country income comparisons)</li>
+<li>rgdpnapc: Real GDP per capita in 2011US$, 2011 benchmark (suitable for cross-country growth comparisons)</li><br>
+Mind the y axis which uses log scale. The global GDP is growing over the time from the end of the 13th century. The previous section showed that 
+the number of countries increases as the time hence the GDP boost could be biaised by the increasing number of countries. The graph on the right 
+hand side highlights the GDP averaged per country. It indicates between the 13th century and the 18th century that the GDP averaged is almost 
+constant and does not increasing has much as on the left hand side graph. Then, from the 18th century the GDP averaged clearly increases, it can 
+still be biaised by the varying number of countries. However, from 1950 to 2016 the number of countries is constant (169) and the GDP grows by 
+around 7 fold. The map below allows to scroll over the year to visualise and compare the GDP per country.
+</div>
+
+<div class="graph">
+<object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/GDPPerCapitaPerCountryPerYearMapSlider.html" width="1200" height="650" >
+</object>
+</div>
+
+<div class="header3"><b>3. Study of Population</b></div>
+<div class="horizlineblue"></div>
+<table style="width:100%">
+  <tr>
+    <td>
+    <div class="graph"><object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/TotalPopulationPerYear.html" width="600"  height="400" >
+</object></div></td>
+    <td><div class="graph"><object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/PopulationAveragedPerCountryPerYear.html" width="600" height="400" >
+</object></div></td> 
+  </tr>
+</table>
+
+<div class="content">Mind the y axis which uses log scale. The total population is growing over the time with an acceleration from the 19th 
+century. Again, the first section showed that the number of countries increases as the time hence the population boost could be biaised by the 
+increasing number of countries. The graph on the right hand side highlights the population averaged per country. It still indicates a population 
+increasing. From 1821 to 2016, five trends can be seen, they represent sequences of years with same amount of countries. Except for the second 
+one (1851 to 1869), all the other periods have an averaged population increasing. The last two periods (1900 to 1949 and 1950 to 2016), and 
+especially the last one, emphasize a population growing by around 3 fold. The map below allows to scroll over the year and visualise and compare 
+the population per country.
+</div>
+
+<div class="graph">
+<object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/PopulationPerCountryPerYearMapSlider.html" width="1200" height="650" >
+</object>
+</div>
+
+<div class="header3"><b>4. Study of GDP, Population and Years</b></div>
+<div class="horizlineblue"></div>
+<div class="content">Mind the x and y axis which use log scale. For each year, the population and GDP per country is displayed when both 
+population and GDP are available. Countries are colored by continents. When scrolling over the years, it can be seen the impacts of crisis (i.e. 
+wars) on the economy and population. On the year 2016, the European countries are globally the wealthiest. On the opposite side, the African 
+countries are globally the poorest. Asian countries sit in between with some countries comparable to European's and some 
+other similar as Asia's.
+</div>
+
+<div class="graph">
+<object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/GDPPerCapitaVsPopulationPerCountryPerYearSlider.html" width="1200" height="650" >
+</object>
+</div>
+
+<div class="header3"><b>5. France</b></div>
+<div class="horizlineblue"></div>
+<div class="content">Mind the y axis which uses log scale. France has been chosen as it is one of the top 3 most represented countries. Time 
+period range from 1820 to 2016 where data is available every year. The GDP per capita increases from US$1,442 to US$38,758 (about 27 fold). The 
+population has been doubled, 31 million to 67 million inhabitants within almost 200 years. The effect of the two world wars can be seen on the 
+population and the economy. The first world war reduced the population by about 3 millions inhabitants and the economy by about 30% (US$4,745 to 
+US$3,348) while the second world war had lead to the death of around 2 millions of persons and the reduction of about 45% (US$6,058 to US$3,337) 
+of the economy.
+</div>
+
+<div class="graph">
+<object type="text/html" data="https://florentdsgree.github.io/MaddisonWorldEconomy_2018/GlobalGDPPerCapitaPerYearFrance.html" width="1200" height="650" >
+</object>
+</div>
+
+<div class="header1">
+</div>
+<div class="content">Last Update 04/04/2019 
+</div>
+</html>
