@@ -44,8 +44,8 @@ La ville de Rennes possède une ligne de métro (ligne a) depuis 2002. Cette lig
 
 **Figure 1: Distribution de la distance orthodromique entre 2 stations (Cliquez sur l'image pour l'interactivité!)**
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceOrthodromiqueEntreStations.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/DistributionDistanceOrthodromiqueEntreStations.PNG" width="400"/>
+  <a href="https://florentdsgree.github.io/MetroRennes/MetroRennes/DistributionDistanceOrthodromiqueEntreStations.html">
+  <img src="https://florentdsgree.github.io/MetroRennes/MetroRennes/DistributionDistanceOrthodromiqueEntreStations.PNG" width="400"/>
   </a>
 </p>
 
@@ -74,8 +74,8 @@ La longueur totale comprend les zones qui ne sont pas utilisées pour le transpo
 **Figure 2: Distribution de la longueur des voies de métro par type de voie (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/LongueurVoieMetro.PNG" width="400"/>
+  <a href="https://florentdsgree.github.io/MetroRennes/MetroRennes/LongueurVoieMetro.html">
+  <img src="https://florentdsgree.github.io/MetroRennes/MetroRennes/LongueurVoieMetro.PNG" width="400"/>
   </a>
 </p>
 
@@ -88,8 +88,8 @@ Les cartes suivantes montrent la localisation géographique des stations de mét
 **Carte 2: Localisation des stations de métro (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/MetroRennes.PNG" width="400"/>
+  <a href="https://florentdsgree.github.io/MetroRennes/MetroRennes/MetroRennes.html">
+  <img src="https://florentdsgree.github.io/MetroRennes/MetroRennes/MetroRennes.PNG" width="400"/>
   </a>
 </p>
 
@@ -100,8 +100,8 @@ Les deux lignes se croisent en deux endroits, aux stations Gares et Saint-Anne. 
 **Carte 3: Tracé des lignes de métro (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroLine.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroLine.PNG" width="400"/>
+  <a href="https://florentdsgree.github.io/MetroRennes/MetroRennes/TraceVoieMetroLine.html">
+  <img src="https://florentdsgree.github.io/MetroRennes/MetroRennes/TraceVoieMetroLine.PNG" width="400"/>
   </a>
 </p>
 
@@ -112,8 +112,8 @@ Le tracé des voies de métro met en avant la forme sinueuse des lignes et expli
 **Carte 4: Tracé des lignes de métro par type d'ouvrage (Cliquez sur l'image pour l'interactivité!)**
 
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroType.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/TraceVoieMetroType.PNG" width="400"/>
+  <a href="https://florentdsgree.github.io/MetroRennes/MetroRennes/TraceVoieMetroType.html">
+  <img src="https://florentdsgree.github.io/MetroRennes/MetroRennes/TraceVoieMetroType.PNG" width="400"/>
   </a>
 </p>
 
@@ -168,8 +168,8 @@ Les tableaux suivants contiennent les details de la distance orthodromique et la
 
 **Figure 3: Comparaison entre la distance orthodormique et la longueur du tracé des rails (Cliquez sur l'image pour l'interactivité!)**
 <p align="center">
-  <a href="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/OrthoDistVSRailwayLength.html">
-  <img src="https://florentdsgree.github.io/TransportRennesMetropole/MetroRennes/OrthoDistVSRailwayLength.PNG" width="400"/>
+  <a href="https://florentdsgree.github.io/MetroRennes/MetroRennes/OrthoDistVSRailwayLength.html">
+  <img src="https://florentdsgree.github.io/MetroRennes/MetroRennes/OrthoDistVSRailwayLength.PNG" width="400"/>
   </a>
 </p>
 
