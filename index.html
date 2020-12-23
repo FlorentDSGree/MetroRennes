@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Underground Rennes</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link href="http://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href= "index.css">
+</head>
+ 
+<body>
+	<div class="title1">Statistics and visualisation of Rennes's underground</div>
+	<div class="title2">1. Introduction</div>
+	<p>The purpose of this study is to give some basic information about the underground in Rennes. The data are coming from the 
+	   data platform of Rennes Métrople (<a href="https://data.rennesmetropole.fr/page/home/">link to data</a>) queried in May 2019. 
+	   The visualisation is done with the python library "bokeh".</p>
+	<div class="title4">Map 1: Underground railway tracks and stations</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/RailwayTracksStations.html" width="1200" height="650"></object></p>
+	<div class="title2">2. Statistics and analysis</div>
+	<p>Rennes has one underground line (ligne a) since 2002. This line transports about 140,000 passangers daily. A second line (ligne b) 
+	   is currently being built which opening is planned for 2020.</p>
+	<div class="title3">2.1. Underground stations analysis</div>
+	<div class="container">
+	  <div class="title4">Table 1: Stations key numbers</div>
+	  <table class="table table-striped">
+		<thead>
+		  <tr>
+			<th></th>
+			<th>Line a</th>
+			<th>Line b</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td>Number of stations</td>
+			<td>15</td>
+			<td>15</td>
+		  </tr>
+		  <tr>
+			<td>Terminal 1</td>
+			<td>J.F. Kennedy</td>
+			<td>Saint-Jacques-Gaité</td>
+		  </tr>
+		  <tr>
+			<td>Terminal 2</td>
+			<td>La Poterie</td>
+			<td>Cesson Viasilva</td>
+		  </tr>
+		  <tr>
+			<td><b>Euclidean distance...</b></td>
+			<td>...</td>
+			<td>...</td>
+		  </tr>
+		  <tr>
+			<td>Between terminals</td>
+			<td>6.2 km</td>
+			<td>7.6 km</td>
+		  </tr>
+		  <tr>
+			<td>Average between 2 stations</td>
+			<td>583 m</td>
+			<td>800 m</td>
+		  </tr>
+		  <tr>
+			<td>Median between 2 stations</td>
+			<td>552 m</td>
+			<td>776 m</td>
+		  </tr>
+		  <tr>
+			<td>Minimum between 2 stations</td>
+			<td>378 m <br>Charles de Gaulle - Gares</td>
+			<td>535 m <br>Saint Germain - Sainte Anne</td>
+		  </tr>
+		  		  <tr>
+			<td>Maximum between 2 stations</td>
+			<td>782 m <br>Gares - Jacques Cartier</td>
+			<td>1,116 m <br>Cleunay - Mabilais</td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
+	<p>The Euclidean distance is the shortest distance between 2 points. The railway track length is at least equal to the 
+	   Euclidean distance. The railway path does not always follow a straight line because of various constraints.</p>
+	<div class="title4">Figure 1: Distribution of Euclidean distance between 2 stations</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/DistributionEuclideanDistanceBetweenStations.html" width="1200" height="650"></object></p>
+	<p>Both underground lines have the same amount of stations (15), however the line b is longer than the line a by 1.4 km (+22.6%).  
+	   The average, minimum and maximum Euclidean distances between 2 stations are higher for line b compared to line a. The figure 1
+	   highlights the wider gap between stations of the line b.</p>
+	<div class="title3">2.2. Analysis of the railway path</div>  
+	<div class="container">
+	  <div class="title4">Table 2: Railway path key numbers</div>
+	  <table class="table table-striped">
+		<thead>
+		  <tr>
+			<th>Length</th>
+			<th>Line a</th>
+			<th>Line b</th>
+			<th>Difference (a-b)</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td>Total</td>
+			<td>9,696 m</td>
+			<td>13,727 m</td>
+			<td>-4,031 m (-42%)</td>
+		  </tr>
+		  <tr>
+			<td>Between terminals</td>
+			<td>8,587 m</td>
+			<td>12,949 m</td>
+			<td>-4,362 m (-51%)</td>
+		  </tr>
+		  <tr>
+			<td>Tunnel</td>
+			<td>3,680 m</td>
+			<td>8,062 m</td>
+			<td>-4,382 m (-119%)</td>
+		  </tr>
+		  <tr>
+			<td>Covered trench</td>
+			<td>3,030 m</td>
+			<td>1,782 m</td>
+			<td>1,248 m (+41%)</td>
+		  </tr>
+		  <tr>
+			<td>Viaduct</td>
+			<td>945 m</td>
+			<td>2,077 m</td>
+			<td>-1,132 m (-120%)</td>
+		  </tr>
+		  <tr>
+			<td>Station</td>
+			<td>537 m</td>
+			<td>919 m</td>
+			<td>-382 m (-71%)</td>
+		  </tr>
+		  <tr>
+			<td>Transition zone</td>
+			<td>395 m</td>
+			<td>109 m</td>
+			<td>286 m (+72%)</td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
+	<p>The total railway path is made of non commercially used portions, these portions are used for maintenance and services. They represent 
+	   for the line a and the line b respectively 11.4% and 5.6% of the total length. The line b is longer than the line a by about 50%. The 
+	   tunnel portions of both lines are almost equivalent between the line a (8,587 m) and the line b (8,062 m). The number of stations is same 
+	   for both lines. however, the length of station railways is longer for the line b by about 30%.</p>
+	<div class="title4">Figure 2: Distribution of railway length by type</div>
+    <p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/RailwaysLengthByType.html" width="1200" height="450"></object></p>
+	<div class="title4">Figure 3: Comparison between Euclidean and real railway distances between 2 stations</div>
+    <p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/EuclideanDistVSRailwayLength.html" width="1200" height="500"></object></p>
+	<p>The closest a point is to the green line and the closest the railway path length is to the Euclidean distance. No points can be above the green 
+	   line. It is impossible to have a railway path length shorter than the Euclidean distance(which isthe shortest distance between 2 points). 
+	   This figure shows that the railway tracks between 2 stations of the line a are closer to the green line than those of the line b.</p>
+	
+	<div class="title2">3. Visualisation</div>
+	<div class="title4">Map 2: Localisation of underground stations</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/StationLocation.html" width="1200" height="650"></object></p>
+	<p>Both lines are crossing twice at the stations Gares and Saint-Anne. The line a goes across town following the axis North-East South-East 
+	   while the line b follows the axis South-West North-East.</p>
+	<div class="title4">Map 3: Railway lines path</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/RailwayTracks.html" width="1200" height="650"></object></p>
+	<p>The railway paths highlight the winding shape of the lines and explains the difference between the Euclidean distance and
+	   the real railways length between the stations. For example, between the stations Jacques Cartier and Clémenceau (line a) 
+	   the difference is 0 m and the railway tracks are almost straight. Opposite case between the stations Gares and Saint-Germain 
+	   (line b) the difference is 320 m and the railway path has along curve.</p>
+	<div class="title4">Map 4: Railway lines path by type</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/RailwayTracksByType.html" width="1200" height="650"></object></p>
+	<p>This map emphasize the different kind of railway tracks. In town centre, there is almost exclusively tunnel due to the high density. Moving 
+	   away from the centre, covered trenchs are more often used as well as viaduct more used at the end of lines.</p>
+	
+	
+	
+
+
+</body>
+
+
+
+</html>
