@@ -19,12 +19,12 @@
 	<div class="title1">Statistics and visualisation of Rennes's underground</div>
 	<div class="title2">1. Introduction</div>
 	<p>The purpose of this study is to give some basic information about the underground in Rennes. The data are coming from the 
-	   data platform of Rennes Métrople (<a href="https://data.rennesmetropole.fr/page/home/">link to data</a>) queried in May 2019. 
+	   data platform of Rennes Métropole (<a href="https://data.rennesmetropole.fr/page/home/">link to data</a>) queried in May 2019. 
 	   The visualisation is done with the python library "bokeh".</p>
 	<div class="title4">Map 1: Underground railway tracks and stations</div>
 	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/RailwayTracksStations.html" width="1200" height="650"></object></p>
 	<div class="title2">2. Statistics and analysis</div>
-	<p>Rennes has one underground line (ligne a) since 2002. This line transports about 140,000 passangers daily. A second line (ligne b) 
+	<p>Rennes has one underground line (line a) since 2002. This line transports about 140,000 passangers daily. A second line (line b) 
 	   is currently being built which opening is planned for 2020.</p>
 	<div class="title3">2.1. Underground stations analysis</div>
 	<div class="container">
@@ -54,7 +54,7 @@
 			<td>Cesson Viasilva</td>
 		  </tr>
 		  <tr>
-			<td><b>Euclidean distance...</b></td>
+			<td><b>euclidean distance...</b></td>
 			<td>...</td>
 			<td>...</td>
 		  </tr>
@@ -86,12 +86,12 @@
 		</tbody>
 	  </table>
 	</div>
-	<p>The Euclidean distance is the shortest distance between 2 points. The railway track length is at least equal to the 
-	   Euclidean distance. The railway path does not always follow a straight line because of various constraints.</p>
-	<div class="title4">Figure 1: Distribution of Euclidean distance between 2 stations</div>
+	<p>The euclidean distance is the shortest distance between 2 points. The railway track length is at least equal to the 
+	   euclidean distance. The railway path does not always follow a straight line because of various constraints.</p>
+	<div class="title4">Figure 1: Distribution of euclidean distance between 2 stations</div>
 	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/DistributionEuclideanDistanceBetweenStations.html" width="1200" height="650"></object></p>
 	<p>Both underground lines have the same amount of stations (15), however the line b is longer than the line a by 1.4 km (+22.6%).  
-	   The average, minimum and maximum Euclidean distances between 2 stations are higher for line b compared to line a. The figure 1
+	   The average, minimum and maximum euclidean distances between 2 stations are higher for line b compared to line a. The figure 1
 	   highlights the wider gap between stations of the line b.</p>
 	<div class="title3">2.2. Analysis of the railway path</div>  
 	<div class="container">
@@ -157,10 +157,10 @@
 	   for both lines. however, the length of station railways is longer for the line b by about 30%.</p>
 	<div class="title4">Figure 2: Distribution of railway length by type</div>
     <p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/RailwaysLengthByType.html" width="1200" height="450"></object></p>
-	<div class="title4">Figure 3: Comparison between Euclidean and real railway distances between 2 stations</div>
+	<div class="title4">Figure 3: Comparison between euclidean and real railway distances between 2 stations</div>
     <p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/EuclideanDistVSRailwayLength.html" width="1200" height="500"></object></p>
-	<p>The closest a point is to the green line and the closest the railway path length is to the Euclidean distance. No points can be above the green 
-	   line. It is impossible to have a railway path length shorter than the Euclidean distance(which isthe shortest distance between 2 points). 
+	<p>The closest a point is to the green line and the closest the railway path length is to the euclidean distance. No points can be above the green 
+	   line. It is impossible to have a railway path length shorter than the euclidean distance (which is the shortest distance between 2 points). 
 	   This figure shows that the railway tracks between 2 stations of the line a are closer to the green line than those of the line b.</p>
 	
 	<div class="title2">3. Visualisation</div>
@@ -170,14 +170,34 @@
 	   while the line b follows the axis South-West North-East.</p>
 	<div class="title4">Map 3: Railway lines path</div>
 	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/RailwayTracks.html" width="1200" height="650"></object></p>
-	<p>The railway paths highlight the winding shape of the lines and explains the difference between the Euclidean distance and
+	<p>The railway paths highlight the winding shape of the lines and explains the difference between the euclidean distance and
 	   the real railways length between the stations. For example, between the stations Jacques Cartier and Clémenceau (line a) 
 	   the difference is 0 m and the railway tracks are almost straight. Opposite case between the stations Gares and Saint-Germain 
 	   (line b) the difference is 320 m and the railway path has along curve.</p>
 	<div class="title4">Map 4: Railway lines path by type</div>
 	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/MetroRennes/docs/RailwayTracksByType.html" width="1200" height="650"></object></p>
-	<p>This map emphasize the different kind of railway tracks. In town centre, there is almost exclusively tunnel due to the high density. Moving 
+	<p>This map emphasizes the different kind of railway tracks. In town centre, there is almost exclusively tunnel due to the high density. Moving 
 	   away from the centre, covered trenchs are more often used as well as viaduct more used at the end of lines.</p>
+	<div class="title2">4. Spatial analysis</div>
+	<p>This analysis focuses on the density population compared to the stations localisation. Density data have been downloaded for 200m square side 
+	  (<a href="https://public.opendatasoft.com/explore/dataset/200m_carreaux_metropole_shapefile_wgs84/table/?refine.departement=ILLE-ET-VILAINE&refine.libgeo=Rennes">link to data</a>). 
+	  This dataset is not complete as the total population from the data is 172,560 inhabitants while the total population of the city is about 215,000 
+	  inhabitants (2018). It can be seen on the map 5 below which areas are missing data.</p>
+	<div class="title4">Map 5: Population density</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><img type="image" src="https://florentdsgree.github.io/MetroRennes/docs/densityPopulation.png" width="800" height="450"></object></p>
+	<p>The colors have been chosen based on the population density quartiles:<br> - 25th percentile: 77 pop/km<sup>2</sup><br> - 50th percentile: 245 pop/km<sup>2</sup>
+	   <br> - 75th percentile: 760 pop/km<sup>2</sup><br>It can be seen from map 5 the higher density in city centre and some other areas with high building like in the South.</p>
+	<div class="title4">Map 6: Proximity to stations</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><img type="image" src="https://florentdsgree.github.io/MetroRennes/docs/buffer500mStation.png" width="800" height="450"></object></p>
+	<p>A buffer zone of 500m radius is displayed on map 6. This buffer zone represents 14.3 km<sup>2</sup> which is about 28% of the total area of Rennes (50.38 km<sup>2</sup>).</p>
+	<div class="title4">Map 7: Population density and proximity to stations</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><img type="image" src="https://florentdsgree.github.io/MetroRennes/docs/densityBuffer500mStation.png" width="800" height="450"></object></p>
+	<p>Both maps 5 and 6 are combined to highlight the localisation of the stations with the population density. With the population data used, 113,871 inhabitants 
+       are living within 500m to an underground station. It represents about 66% of the population for the data available. Considering the total population 
+	   estimated around 215,000 inhabitants it still represents at least about 50% of the population living at 500m or less to a station. Only the population 
+	   of Rennes is taken into account while some stations of the line b are in neighbours cities(i.e. South-West and East).<br><br></p>
+	
+	
 	
 	
 	
